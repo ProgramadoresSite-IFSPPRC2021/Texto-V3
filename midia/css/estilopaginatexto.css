@@ -1,0 +1,46 @@
+
+.imagem{
+}
+img{
+width: 350px;
+height: 300px;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+border-radius: 8px;
+}
+.audio{
+   width: 300px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+.texto{
+padding: 30px;
+}
+.rb{
+text-align: verdana;
+border: 3px solid;
+margin-left: 30px;
+margin-right: 30px;
+}
+.prb {
+	font-family: times new roman;
+	text-align: center;
+}
+p {
+font-family: helvetica;
+text-align: justify;
+}
+h3 {
+font-family: verdana;
+text-align: center;
+padding: 90px 10px 25px 10px;
+}
+h4{
+font-family: verdana;
+text-align: center;
+}
+@media (max-width: 360px){
+img{
+width: 250px;
+height: 200px;
+}
+}
